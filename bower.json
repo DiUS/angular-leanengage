@@ -1,0 +1,15 @@
+{
+  "name": "angular-leanengage",
+  "description": "LeanEngage integration for your AngularJS app",
+  "version": "0.0.1",
+  "main": "dist/angularLeanEngage.js",
+  "dependencies": {
+    "angular": "~1.2.4",
+    "json3": "~3.2.4",
+    "es5-shim": "~2.1.0"
+  },
+  "devDependencies": {
+    "angular-mocks": "1.2.4",
+    "angular-scenario": "1.2.4"
+  }
+}

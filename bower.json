@@ -1,7 +1,7 @@
 {
   "name": "angular-leanengage",
   "description": "LeanEngage integration for your AngularJS app",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "dist/angularLeanEngage.js",
   "ignore": [
       "**/.*",

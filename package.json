@@ -1,6 +1,6 @@
 {
   "name": "angular-leanengage",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "dependencies": {},
   "devDependencies": {
     "coffee-script": "^1.7.1",

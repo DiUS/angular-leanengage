@@ -3,6 +3,11 @@
   "description": "LeanEngage integration for your AngularJS app",
   "version": "0.0.1",
   "main": "dist/angularLeanEngage.js",
+  "ignore": [
+      "**/.*",
+      "src",
+      "test"
+  ],
   "dependencies": {
     "angular": "~1.2.4",
     "json3": "~3.2.4",

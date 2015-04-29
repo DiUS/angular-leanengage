@@ -32,11 +32,13 @@ angular.module('leanEngage')
       appId = id
 
     # Method for instantiating
-    @$get = ($window) ->
+    @$get = [
+      '$window'
+      ($window) ->
       `
       (function(window, doc, script, url, apiName, a, m) {window.LeanEngageObject = apiName;window[apiName] = window[apiName] || function() {(window[apiName].q = window[apiName].q || []).push(arguments);};window[apiName].l = 1 * new Date();a = doc.createElement(script);m = doc.getElementsByTagName(script)[0];a.async = 1;a.src = url;m.parentNode.insertBefore(a, m);
       })(window, document, 'script', '//www.leanengage.com/leanengage.v1.js', 'leanengage');
       `
       new LeanEngage($window)
-
+    ]
     return

@@ -27,6 +27,9 @@ angular.module('leanEngage')
       trackEvent: (namespace, event, data) ->
         @$window.leanengage 'trackEvent', "#{namespace}/#{event}", data
 
+      triggerFeedback: (name) ->
+        @$window.leanengage 'triggerFeedback', name
+
     # Public API for configuration
     @setAppId = (id) ->
       appId = id
